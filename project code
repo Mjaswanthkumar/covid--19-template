@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color:lightgray;
+  padding: 30px;
+  font-family: Arial;
+}
+.main {
+  max-width: 2000px;
+  margin: auto;
+}
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+.row {
+  margin: 8px -16px;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+</style>
+</head>
+<body>
+<div class="main">
+<title>CORONA VIRUS</title>>
+<hr>
+<h2 style="color:tomato ">COVID-19</h2>
+<p style="color:dodgerblue;">CORONA VIRUS OUTBREAK</p>
+<p>The coronavirus is a family of viruses that can cause a range of illnesses in humans including common cold and more severe forms like SARS and MERS which are life-threatening. The virus is named after its shape which takes the form of a crown with protrusions around it and hence is known as coronavirus.</p>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="tust.jpg" alt="ITALY" style="width:100%">
+      <h3>COVID-19 in ITALY</h3>
+      <p>Deaths from the COVID-19 epidemic in Italy rose by 575 on Friday, up from 525 the day before, while the number of new cases declined slightly to 3,493 from a previous 3,786.
+
+The daily tallies of deaths and cases extend the broadly stable situation in place over the last 12 days.
+</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="content">
+    <img src="trust5.jpg" alt="Lights" style="width:100%">
+      <h3>COVID-19 in SPAIN</h3>
+      <p>Spain's death toll spiralled towards 19,500 on Friday as the government revised its data collection methodology despite controversy over a system that counts only deaths among those who tested positive.</p>
+    </div>
+  </div>
+   <div class="column">
+    <div class="content">
+    <img src="trust2.jpg.jpg" alt="spain" style="width:100%">
+      <h3>COVID-19 in USA</h3>
+      <p>LOfficials said they had added 1,290 deaths to the tally in the city, which has suffered the vast majority of China's officially recognized fatalities from COVID-19, the disease caused by the virus.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="trust3.jpg" alt="usa" style="width:100%">
+      <h3>COVID-19 in INDIA</h3>
+      <p>The number of cases reported in India crosses the 14,000, including 11,906 active cases and 480 deaths, according to the health ministry. World coronavirus deaths passed 150,000 on Friday as US President Donald Trump accused China of continuing to cover up its toll.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="content">
+  <img src="trust4.jpg" alt="India" style="width:100%">
+  <h3>NON INFECTED COUNTRIES</h3>
+  <p>As the world grapples with the Covid-19 pandemic, there are still a handful of countries that are reporting zero cases of the disease caused by the novel coronavirus.
+
+</p>
+  <p>According to data being aggregated by the Johns Hopkins University’s Center for Systems Science and Engineering (CSSE), which is modelling the spread of the disease and shows data through a real-time dashboard, there are 15 such countries, which lie in Asia, Africa and and Oceania. The virus also hasn’t reached Antarctica, where there is no permanent human population.</p>
+
+  <P>The two countries in Africa that have reported zero cases are Lesotho and Comoros, and both have geographical advantages.</P>
+    <P>The eight countries without a single Covid-19 case in the Oceania region are the island nations of Kiribati, Tuvalu, Tonga, Samoa, Marshall Islands, Solomon Islands, Nauru, Palau, Vanuatu, and the Federated States of Micronesia.</P>
+</div>
+</div>
+</body>
+</html>
